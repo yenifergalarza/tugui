@@ -5,6 +5,11 @@
                         color: #2f2e2e;
                     }
                     
+                    .moreDark {
+                        filter: brightness(60%);
+                        -webkit-filter: brightness(60%);
+                    }
+                    
                     @import url('https://fonts.googleapis.com/css?family=Kanit:400,700|Montserrat:100&display=swap');
                     .kanit {
                         font-family: 'Kanit', sans-serif;
@@ -435,6 +440,9 @@
                         }
                         .navbar {
                             z-index: 100;
-                            background-color: #3C0982C7;
+                            background-color: #000000C7;
+                        }
+                        .navbar-dark .navbar-nav .active>.nav-link {
+                            text-align: center;
                         }
                     }
